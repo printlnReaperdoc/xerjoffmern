@@ -89,7 +89,6 @@ export default function Login() {
                 onChange={handleChange}
                 style={styles.input}
                 placeholder="your@email.com"
-                required
                 disabled={loading}
               />
             </div>
@@ -103,7 +102,6 @@ export default function Login() {
                 onChange={handleChange}
                 style={styles.input}
                 placeholder="Enter your password"
-                required
                 disabled={loading}
               />
             </div>

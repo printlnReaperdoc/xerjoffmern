@@ -258,6 +258,7 @@ export default function Profile() {
                 </div>
               </div>
 
+
               {/* Name Input */}
               <div style={styles.inputGroup}>
                 <label style={styles.label}>Full Name</label>
@@ -268,7 +269,6 @@ export default function Profile() {
                   onChange={handleChange}
                   style={styles.input}
                   placeholder="Enter your full name"
-                  required
                   disabled={loading}
                 />
               </div>
@@ -283,8 +283,6 @@ export default function Profile() {
                   onChange={handleChange}
                   style={styles.input}
                   placeholder="Enter your username"
-                  required
-                  minLength={3}
                   disabled={loading}
                 />
               </div>
